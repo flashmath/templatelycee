@@ -62,7 +62,7 @@ foreach ($list as $i => &$item) :
 
 	if (!empty($class))
 	{
-		$class = ' class="'.trim($class) .'"';
+		$class = ' class="'.trim($class) .' span2"';
 	}
 
 	echo '<li'.$class.'>';
