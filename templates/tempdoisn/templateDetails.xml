@@ -1,1 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<extension version="3.1" type="template">
+        <name>tempdoisn</name>
+        <creationDate>2013-07-23</creationDate>
+        <author>Fabrice Charlemagne</author>
+        <authorEmail>flash_math@yahoo.fr</authorEmail>
+        <copyright>John Doe 2008</copyright>
+        <license>Domaine public</license>
+        <version>1.0.0</version>
+        <description>Template pour le site du lycée Doisneau de Corbeil-Essonnes</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+        </files>
+        <positions>
+                <position>header-top</position>
+                <position>header-middle</position>
+                <position>header-bottom</position>
+                <position>menu</position>
+                <position>left-top</position>
+                <position>left-middle</position>
+                <position>left-bottom</position>
+                <position>middle-top</position>
+                <position>middle-content</position>
+                <position>middle-bottom</position>
+                <position>right-top</position>
+                <position>right-middle</position>
+                <position>right-bottom</position>
+                <position>footer-top</position>
+                <position>footer-middle</position>
+                <position>footer-bottom</position>
+        </positions>
+</extension>
