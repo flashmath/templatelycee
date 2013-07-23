@@ -29,6 +29,9 @@ if (in_array($option, $bootstrap))
 }
 
 $doc->addStyleSheet(JURI::base() . 'templates/system/css/system.css');
+// Add Stylesheets
+$doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
+
 
 JHtml::_('bootstrap.framework');
 
@@ -36,7 +39,6 @@ JHtml::_('bootstrap.framework');
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
 	<head>
-		<?php require __DIR__ . '/jsstrings.php';?>
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"/>
 		<meta name="HandheldFriendly" content="true" />
@@ -45,7 +47,7 @@ JHtml::_('bootstrap.framework');
 		<jdoc:include type="head" />
 	</head>
 	<body>
-		<div id="topbg"/>
+		<div id="topbg"></div>
 		<div class="container">
 			<div class="header">
 				<jdoc:include type="modules" name="header-top" />
